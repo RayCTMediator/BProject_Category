@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BProject_Category"
-  s.version      = "0.1.1"
+  s.version      = "2"
   s.summary      = "BProject_Category."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is BProject_Category
                    DESC
 
-  s.homepage     = "https://github.com/Ray0218/BProject_Category"
+  s.homepage     = "https://github.com/RayCTMediator/BProject_Category"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Ray0218/BProject_Category.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/RayCTMediator/BProject_Category.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -136,6 +136,5 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-  s.dependency "CTMediator"
 
 end
