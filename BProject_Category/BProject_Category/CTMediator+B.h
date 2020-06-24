@@ -6,9 +6,9 @@
 //  Copyright © 2019 Ray. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 
 #import <CTMediator/CTMediator.h>
-#import <UIKit/UIKit.h>
 
 @interface CTMediator (B)
 
